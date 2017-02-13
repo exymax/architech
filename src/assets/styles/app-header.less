@@ -1,0 +1,29 @@
+.flex-default {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+header {
+  margin: 15px;
+  .flex-default;
+
+  .title {
+    span {
+      font-size: 20px;
+    }
+  }
+
+  .navigation {
+    nav a {
+      text-decoration: none;
+      color: inherit;
+      margin-right: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
